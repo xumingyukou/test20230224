@@ -1,0 +1,5 @@
+log_level = "info"
+
+[sys]
+max_process = 3
+

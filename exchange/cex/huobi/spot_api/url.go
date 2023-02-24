@@ -1,0 +1,245 @@
+package spot_api
+
+const (
+	SPOT_API_BASE_URL    = "api.huobi.pro"
+	U_BASE_API_URL       = "api.hbdm.com"
+	C_BASE_API_URL       = "api.hbdm.com"
+	WS_API_BASE_URL      = "wss://api.huobi.pro/ws"
+	WS_API_MBP_INCREMENT = "wss://api.huobi.pro/feed"
+	WS_CBASE_FUTURE_URL  = "wss://api.hbdm.com/ws"
+	WS_CBASE_SWAP_URL    = "wss://api.hbdm.com/swap-ws"
+	WS_UBASE_URL         = "wss://api.hbdm.com/linear-swap-ws"
+)
+
+type ReqUrl struct {
+	MARKET_STATUS_URL                        string
+	ALL_SYMBOLS_URL                          string
+	ALL_CURRENCIES_URL                       string
+	CURRENCYS_SETTINGS_URL                   string
+	SYMBOLS_SETTINGS_URL                     string
+	MARKET_SYMBOLS_SETTINGS_URL              string
+	CHAINS_SETTINGS_URL                      string
+	CURRENCIES_CHAINS_URL                    string
+	KLINE_URL                                string
+	MERGED_URL                               string
+	All_TICKERS_URL                          string
+	HISTORY_TRADE_URL                        string
+	DETAIL_URL                               string
+	NEWEST_TRADE_URL                         string
+	ACCOUNT_URL                              string
+	EXCHANGEINFO_URL                         string
+	DEPTH_URL                                string
+	TIME_URL                                 string
+	ASSET_TRADEFEE_URL                       string
+	ACCOUNTBALANCE_URL                       string
+	CAPITAL_DEPOSIT_HISREC_URL               string
+	ORDER_URL                                string
+	VALUATION_URL                            string
+	ASSET_VALUATION_URL                      string
+	TRANSFER_URL                             string
+	ACCOUNT_HISTORY_URL                      string
+	ACCOUNT_LEDGER_URL                       string
+	FUTURES_TRANSFER_URL                     string
+	POINT_ACCOUNT_URL                        string
+	POINT_TRANSFER_URL                       string
+	DEPOSIT_ADDRESS_URL                      string
+	WITHDRAW_QUOTA_URL                       string
+	WITHDRAW_ADDRESS_URL                     string
+	WITHDRAW_CREATE_URL                      string
+	WITHDRAW_CLIENTORDERID_URL               string
+	SUB_USER_DEDUCT_MODE_URL                 string
+	CANCEL_WITHDRAW_CREATE_URL               string
+	USER_API_KEY_URL                         string
+	USER_UID_URL                             string
+	SUB_USER_CREATION_URL                    string
+	SUB_USER_LIST_URL                        string
+	SUB_USER_MANAGEMENT_URL                  string
+	SUB_USER_STATE_URL                       string
+	BATCH_ORDERS_URL                         string
+	CANCEL_ORDER_URL                         string
+	GET_ORDER_URL                            string
+	GET_HISTORY_ORDERS_URL                   string
+	GET_ORDER_MATCHRESULTS_URL               string
+	POST_MARGIN_ORDERS_URL                   string
+	POST_CROSS_MARGIN_ORDERS_URL             string
+	GET_MARGIN_LOAN_ORDERS_URL               string
+	GET_CROSS_MARGIN_LOAN_ORDERS_URL         string
+	POST_MARGIN_REPAY_URL                    string
+	POST_CROSS_MARGIN_REPAY_URL              string
+	GET_REPAYMENT_URL                        string
+	GET_REFERENCE_CURRENCIES_URL             string
+	GET_MATCHRESULTS_URL                     string
+	GET_CLIENT_ORDER_URL                     string
+	GET_OPEN_ORDERS_URL                      string
+	GET_DEPOSIT_HISTORY_URL                  string
+	POST_TRANSFER_IN_URL                     string
+	POST_TRANSFER_OUT_URL                    string
+	POST_TRANSFER_URL                        string
+	C_BASE_FUTURE_CONTRACT_STATE             string
+	C_BASE_SWAP_CONTRACT_INFO_URL            string
+	C_BASE_FUTURE_CONTRACT_INFO_URL          string
+	C_BASE_FUTURE_CONTRACT_ACCOUNT_INFO_URL  string
+	C_BASE_FUTURE_CONTRACT_POSITION_INFO_URL string
+	U_BASE_CONTRACT_INFO_URL                 string
+	C_BASE_SWAP_BATCH_FUNDING_RATE_URL       string
+	U_BASE_SWAP_BATCH_FUNDING_RATE_URL       string
+	C_BASE_FUTURE_CONTRACT_INDEX_URL         string
+	C_BASE_FUTURE_DEPTH_URL                  string
+	C_BASE_FUTURE_CONTRACT_FEE_URL           string
+	C_BASE_FUTURE_BALANCE_VALUATION_URL      string
+	C_BASE_FUTURE_ORDER_URL                  string
+	C_BASE_FUTURE_CANCEL_ORDER_URL           string
+	C_BASE_FUTURE_CONTRACT_ORDER_INFO_URL    string
+	C_BASE_FUTURE_CONTRACT_MATCHRESULTS_URL  string
+	C_BASE_FUTURE_CONTRACT_OPENORDERS_URL    string
+	C_BASE_FUTURE_TRANSFER_URL               string
+	C_BASE_SWAP_TRANSFER_URL                 string
+	C_BASE_SWAP_ACCOUNT_INFO_URL             string
+	C_BASE_SWAP_POSITION_INFO_URL            string
+	C_BASE_SWAP_CONTRACT_INDEX_URL           string
+	C_BASE_SWAP_DEPTH_URL                    string
+	C_BASE_SWAP_BALANCE_VALUATION_URL        string
+	C_BASE_SWAP_ORDER_URL                    string
+	C_BASE_SWAP_CANCEL_ORDER_URL             string
+	C_BASE_SWAP_CONTRACT_ORDER_INFO_URL      string
+	C_BASE_SWAP_CONTRACT_MATCHRESULTS_URL    string
+	C_BASE_SWAP_CONTRACT_OPENORDERS_URL      string
+	C_BASE_SWAP_CONTRACT_FEE_URL             string
+	C_BASE_SWAP_MARK_PRICE_KLINE_URL         string
+	U_TRANSFER_URL                           string
+	U_DEPTH_URL                              string
+	U_SWAP_CROSS_POSITION_LIMIT              string
+	U_SWAP_FEE                               string
+	U_SWAP_BALANCE_VALUATION                 string
+	U_SWAP_CROSS_ORDER                       string
+	U_SWAP_CROSS_CANCEL_ORDER                string
+	U_SWAP_CROSS_ORDER_INFO                  string
+	U_SWAP_CROSS_MATCHRESULTS                string
+	U_SWAP_OPEN_ORDERS                       string
+	U_SWAP_CROSS_ACCOUNT_INFO_URL            string
+	U_SWAP_CROSS_POSITION_INFO_URL           string
+	U_SWAP_CONTRACT_INFO_URL                 string
+	U_LINEAR_SWAP_MARK_PRICE_KLINE_URL       string
+	U_BASE_SWAP_SWITCH_ACCOUNT_TYPE_URL      string
+}
+
+func NewSpotReqUrl() *ReqUrl {
+	return &ReqUrl{
+		MARKET_STATUS_URL:                        "/v2/market-status",
+		ALL_SYMBOLS_URL:                          "/v2/settings/common/symbols",
+		ALL_CURRENCIES_URL:                       "/v2/settings/common/currencies",
+		CURRENCYS_SETTINGS_URL:                   "/v1/settings/common/currencys",
+		SYMBOLS_SETTINGS_URL:                     "/v1/settings/common/symbols",
+		MARKET_SYMBOLS_SETTINGS_URL:              "/v1/settings/common/market-symbols",
+		CHAINS_SETTINGS_URL:                      "/v1/settings/common/chains",
+		CURRENCIES_CHAINS_URL:                    "/v2/reference/currencies",
+		KLINE_URL:                                "/market/history/kline",
+		MERGED_URL:                               "/market/detail/merged",
+		All_TICKERS_URL:                          "/market/tickers",
+		HISTORY_TRADE_URL:                        "/market/history/trade",
+		DETAIL_URL:                               "/market/detail",
+		NEWEST_TRADE_URL:                         "/market/trade",
+		ACCOUNT_URL:                              "/v1/account/accounts",
+		EXCHANGEINFO_URL:                         "/v1/common/symbols",
+		DEPTH_URL:                                "/market/depth",
+		TIME_URL:                                 "/v1/common/timestamp",
+		ASSET_TRADEFEE_URL:                       "/v2/reference/transact-fee-rate",
+		ACCOUNTBALANCE_URL:                       "/v1/account/accounts/",
+		CAPITAL_DEPOSIT_HISREC_URL:               "/v1/query/deposit-withdraw",
+		ORDER_URL:                                "/v1/order/orders/place",
+		VALUATION_URL:                            "/v2/account/valuation",
+		ASSET_VALUATION_URL:                      "/v2/account/asset-valuation",
+		TRANSFER_URL:                             "/v1/account.transfer",
+		ACCOUNT_HISTORY_URL:                      "/v1/account/history",
+		ACCOUNT_LEDGER_URL:                       "/v2/account/ledger",
+		FUTURES_TRANSFER_URL:                     "/v1/futures/transfer",
+		POINT_ACCOUNT_URL:                        "/v2/point/account",
+		POINT_TRANSFER_URL:                       "/v2/point/transfer",
+		DEPOSIT_ADDRESS_URL:                      "/v2/account/deposit/address",
+		WITHDRAW_QUOTA_URL:                       "/v2/account/withdraw/quota",
+		WITHDRAW_ADDRESS_URL:                     "/v2/account/withdraw/address",
+		WITHDRAW_CREATE_URL:                      "/v1/dw/withdraw/api/create",
+		WITHDRAW_CLIENTORDERID_URL:               "/v1/query/withdraw/client-order-id",
+		SUB_USER_DEDUCT_MODE_URL:                 "/v2/sub-user/deduct-mode",
+		CANCEL_WITHDRAW_CREATE_URL:               "/v1/dw/withdraw-virtual/",
+		USER_API_KEY_URL:                         "/v2/user/api-key",
+		USER_UID_URL:                             "/v2/user/uid",
+		SUB_USER_CREATION_URL:                    "/v2/sub-user/creation",
+		SUB_USER_LIST_URL:                        "/v2/sub-user/user-list",
+		SUB_USER_MANAGEMENT_URL:                  "/v2/sub-user/management",
+		SUB_USER_STATE_URL:                       "/v2/sub-user/user-state",
+		BATCH_ORDERS_URL:                         "/v1/order/batch-orders",
+		CANCEL_ORDER_URL:                         "/v1/order/orders/",
+		GET_ORDER_URL:                            "/v1/order/orders/",
+		GET_HISTORY_ORDERS_URL:                   "/v1/order/orders",
+		GET_ORDER_MATCHRESULTS_URL:               "/v1/order/orders/",
+		POST_MARGIN_ORDERS_URL:                   "/v1/margin/orders",
+		POST_CROSS_MARGIN_ORDERS_URL:             "/v1/cross-margin/orders",
+		GET_MARGIN_LOAN_ORDERS_URL:               "/v1/margin/loan-orders",
+		GET_CROSS_MARGIN_LOAN_ORDERS_URL:         "/v1/cross-margin/loan-orders",
+		POST_MARGIN_REPAY_URL:                    "/v1/margin/orders/",
+		POST_CROSS_MARGIN_REPAY_URL:              "/v1/cross-margin/orders/",
+		GET_REPAYMENT_URL:                        "/v2/account/repayment",
+		GET_REFERENCE_CURRENCIES_URL:             "/v2/reference/currencies",
+		GET_MATCHRESULTS_URL:                     "/v1/order/matchresults",
+		GET_CLIENT_ORDER_URL:                     "/v1/order/orders/getClientOrder",
+		GET_OPEN_ORDERS_URL:                      "/v1/order/openOrders",
+		GET_DEPOSIT_HISTORY_URL:                  "/v1/query/deposit-withdraw",
+		POST_TRANSFER_IN_URL:                     "/v1/cross-margin/transfer-in",
+		POST_TRANSFER_OUT_URL:                    "/v1/cross-margin/transfer-out",
+		POST_TRANSFER_URL:                        "/v1/futures/transfer",
+		C_BASE_FUTURE_CONTRACT_STATE:             "/api/v1/contract_api_state",
+		C_BASE_SWAP_CONTRACT_INFO_URL:            "/swap-api/v1/swap_contract_info",
+		C_BASE_FUTURE_CONTRACT_INFO_URL:          "/api/v1/contract_contract_info",
+		C_BASE_FUTURE_CONTRACT_ACCOUNT_INFO_URL:  "/api/v1/contract_account_info",
+		C_BASE_FUTURE_CONTRACT_POSITION_INFO_URL: "/api/v1/contract_position_info",
+		U_BASE_CONTRACT_INFO_URL:                 "/linear-swap-api/v1/swap_contract_info",
+		C_BASE_SWAP_BATCH_FUNDING_RATE_URL:       "/swap-api/v1/swap_batch_funding_rate",
+		U_BASE_SWAP_BATCH_FUNDING_RATE_URL:       "/linear-swap-api/v1/swap_batch_funding_rate",
+		C_BASE_FUTURE_CONTRACT_INDEX_URL:         "/api/v1/contract_index",
+		C_BASE_FUTURE_DEPTH_URL:                  "/market/depth",
+		C_BASE_FUTURE_CONTRACT_FEE_URL:           "/api/v1/contract_fee",
+		C_BASE_FUTURE_BALANCE_VALUATION_URL:      "/api/v1/contract_balance_valuation",
+		C_BASE_FUTURE_ORDER_URL:                  "/api/v1/contract_order",
+		C_BASE_FUTURE_CANCEL_ORDER_URL:           "/api/v1/contract_cancel",
+		C_BASE_FUTURE_CONTRACT_ORDER_INFO_URL:    "/api/v1/contract_order_info",
+		C_BASE_FUTURE_CONTRACT_MATCHRESULTS_URL:  "/api/v3/contract_matchresults",
+		C_BASE_FUTURE_CONTRACT_OPENORDERS_URL:    "/api/v1/contract_openorders",
+		C_BASE_FUTURE_TRANSFER_URL:               "/v1/futures/transfer",
+		C_BASE_SWAP_TRANSFER_URL:                 "/v2/account/transfer",
+		C_BASE_SWAP_ACCOUNT_INFO_URL:             "/swap-api/v1/swap_account_info",
+		C_BASE_SWAP_POSITION_INFO_URL:            "/swap-api/v1/swap_position_info",
+		C_BASE_SWAP_CONTRACT_INDEX_URL:           "/swap-api/v1/swap_index",
+		C_BASE_SWAP_DEPTH_URL:                    "/swap-ex/market/depth",
+		C_BASE_SWAP_BALANCE_VALUATION_URL:        "/swap-api/v1/swap_balance_valuation",
+		C_BASE_SWAP_ORDER_URL:                    "/swap-api/v1/swap_order",
+		C_BASE_SWAP_CANCEL_ORDER_URL:             "/swap-api/v1/swap_cancel",
+		C_BASE_SWAP_CONTRACT_ORDER_INFO_URL:      "/swap-api/v1/swap_order_info",
+		C_BASE_SWAP_CONTRACT_MATCHRESULTS_URL:    "/swap-api/v3/swap_matchresults",
+		C_BASE_SWAP_CONTRACT_OPENORDERS_URL:      "/swap-api/v3/swap_hisorders",
+		C_BASE_SWAP_CONTRACT_FEE_URL:             "/swap-api/v1/swap_fee",
+		C_BASE_SWAP_MARK_PRICE_KLINE_URL:         "/index/market/history/swap_mark_price_kline",
+		U_TRANSFER_URL:                           "/v2/account/transfer",
+		U_DEPTH_URL:                              "/linear-swap-ex/market/depth",
+		U_SWAP_CROSS_POSITION_LIMIT:              "/linear-swap-api/v1/swap_cross_position_limit",
+		U_SWAP_FEE:                               "/linear-swap-api/v1/swap_fee",
+		U_SWAP_BALANCE_VALUATION:                 "/linear-swap-api/v1/swap_balance_valuation",
+		U_SWAP_CROSS_ORDER:                       "/linear-swap-api/v1/swap_cross_order",
+		U_SWAP_CROSS_CANCEL_ORDER:                "/linear-swap-api/v1/swap_cross_cancel",
+		U_SWAP_CROSS_ORDER_INFO:                  "/linear-swap-api/v1/swap_cross_order_info",
+		U_SWAP_CROSS_MATCHRESULTS:                "/linear-swap-api/v3/swap_cross_matchresults",
+		U_SWAP_OPEN_ORDERS:                       "/linear-swap-api/v1/swap_openorders",
+		U_SWAP_CROSS_ACCOUNT_INFO_URL:            "/linear-swap-api/v1/swap_cross_account_info",
+		U_SWAP_CROSS_POSITION_INFO_URL:           "/linear-swap-api/v1/swap_cross_position_info",
+		U_SWAP_CONTRACT_INFO_URL:                 "/linear-swap-api/v1/swap_contract_info",
+		U_LINEAR_SWAP_MARK_PRICE_KLINE_URL:       "/index/market/history/linear_swap_mark_price_kline",
+		U_BASE_SWAP_SWITCH_ACCOUNT_TYPE_URL:      "/linear-swap-api/v3/swap_switch_account_type",
+	}
+}
+
+type WsReqUrl struct {
+}
+
+func NewSpotWsUrl() *WsReqUrl {
+	return &WsReqUrl{}
+}

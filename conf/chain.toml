@@ -1,0 +1,20 @@
+[chain]
+
+[chain.polygon]
+endpoint = "https://polygon-mainnet.g.alchemy.com/v2/3vZTNd42HWTFKL2KZcyaT-S1mkv4NKSR"
+
+router.quickswap = "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"
+factory.quickswap = "0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32"
+
+tokens.eth = { address = "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619", decimal = 18 }
+tokens.usdc = { address = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174", decimal = 6 }
+tokens.matic = { address = "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270", decimal = 18 }
+tokens.sand = { address = "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683", decimal = 18 }
+tokens.usdt = { address = "0xc2132D05D31c914a87C6611C10748AEb04B58e8F", decimal = 6 }
+tokens.btc = { address = "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6", decimal = 8 }
+tokens.dai = { address = "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063", decimal = 18 }
+tokens.quick = { address = "0x831753DD7087CaC61aB5644b308642cc1c33Dc13", decimal = 18 }
+tokens.aave = { address = "0xD6DF932A45C0f255f85145f286eA0b292B21C90B", decimal = 18 }
+
+wrapped_address = "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+

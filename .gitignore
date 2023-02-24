@@ -1,0 +1,9 @@
+.idea
+logs
+*.log
+.vscode
+build
+conf/shiftconf.py
+py
+pymaker
+*DS_Store

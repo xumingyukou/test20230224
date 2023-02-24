@@ -1,0 +1,15 @@
+package cfg
+
+const TENANT_PRODUCT string = "prod"
+const TENANT_TEST string = "test"
+const TENANT_PRE_TEST string = "pretest"
+const TENANT_DEV string = "dev"
+const GROUP_USERS string = "users"
+const GROUP_ORDER_SYS string = "ordersys"
+const GROUP_TICKER_TAPE string = "tickertape"
+const GROUP_CLIENTS string = "clients"
+const GROUP_REBALANCE_SYS string = "rebalancesys"
+const GROUP_RISK_CONTROL string = "riskcontrol"
+const GROUP_BALANCE_MONITOR string = "balancemonitor"
+const GROUP_BACK_TEST string = "backtest"
+const GROUP_AI string = "ai"

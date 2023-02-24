@@ -1,0 +1,916 @@
+{
+  "symbols": [
+    {
+      "symbol": "BAND/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BCH/USDT",
+      "precision": {
+        "amount": 3,
+        "price": 1,
+        "amount_min": 0.001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "SUSHI/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "MBOX/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "XRP/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "ONE/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 5,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BUSD/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0,
+        "taker": 0
+      }
+    },
+    {
+      "symbol": "ATA/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "FIL/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BAKE/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "ADA/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 4,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "IOTA/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "TRX/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 5,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BEL/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "SRM/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "AXS/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "DOGE/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 5,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "DOT/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "CAKE/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 3,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "ALICE/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 3,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "C98/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "ALPACA/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 4,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BAT/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "COMP/USDT",
+      "precision": {
+        "amount": 3,
+        "price": 1,
+        "amount_min": 0.001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "UNI/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "XVS/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "NEAR/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "USDC/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0,
+        "taker": 0
+      }
+    },
+    {
+      "symbol": "ZEC/USDT",
+      "precision": {
+        "amount": 3,
+        "price": 1,
+        "amount_min": 0.001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "CELR/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 5,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "SXP/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BTC/USDT",
+      "precision": {
+        "amount": 5,
+        "price": 2,
+        "amount_min": 0.00001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "AVAX/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "XLM/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "MASK/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "ZIL/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 5,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "FTM/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "SFP/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "LTC/USDT",
+      "precision": {
+        "amount": 3,
+        "price": 2,
+        "amount_min": 0.001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "CHR/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "RAY/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "ETH/USDT",
+      "precision": {
+        "amount": 4,
+        "price": 2,
+        "amount_min": 0.0001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BNB/USDT",
+      "precision": {
+        "amount": 3,
+        "price": 1,
+        "amount_min": 0.001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "LINK/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "LINA/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 5,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BTT/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 6,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "IOTX/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 5,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "ALPHA/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "ETC/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "YFI/USDT",
+      "precision": {
+        "amount": 5,
+        "price": 2,
+        "amount_min": 0.00001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "AAVE/USDT",
+      "precision": {
+        "amount": 3,
+        "price": 1,
+        "amount_min": 0.001
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "BLZ/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "REEF/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 5,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "DODO/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 4,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "TLM/USDT",
+      "precision": {
+        "amount": 0,
+        "price": 4,
+        "amount_min": 1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "EOS/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "MATIC/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "SOL/USDT",
+      "precision": {
+        "amount": 2,
+        "price": 2,
+        "amount_min": 0.01
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    },
+    {
+      "symbol": "SNX/USDT",
+      "precision": {
+        "amount": 1,
+        "price": 3,
+        "amount_min": 0.1
+      },
+      "trade_fee": {
+        "maker": 0.001,
+        "taker": 0.001
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "token": "ETH",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.000092
+        },
+        {
+          "network": "ETH",
+          "fee": 0.0016
+        },
+        {
+          "network": "ARBITRUM",
+          "fee": 0.0003
+        },
+        {
+          "network": "BNB",
+          "fee": 0.000092
+        },
+        {
+          "network": "OPTIMISM",
+          "fee": 0.0003
+        }
+      ]
+    },
+    {
+      "token": "XRP",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.35
+        },
+        {
+          "network": "XRP",
+          "fee": 0.25
+        },
+        {
+          "network": "BNB",
+          "fee": 0.35
+        },
+        {
+          "network": "ETH",
+          "fee": 29
+        }
+      ]
+    },
+    {
+      "token": "EOS",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.12
+        },
+        {
+          "network": "EOS",
+          "fee": 0.1
+        },
+        {
+          "network": "BNB",
+          "fee": 0.12
+        }
+      ]
+    },
+    {
+      "token": "ETC",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.0076
+        },
+        {
+          "network": "ETC",
+          "fee": 0.01
+        },
+        {
+          "network": "BNB",
+          "fee": 0.0076
+        }
+      ]
+    },
+    {
+      "token": "BTC",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.0000051
+        },
+        {
+          "network": "BTC",
+          "fee": 0.0002
+        },
+        {
+          "network": "BNB",
+          "fee": 0.0000051
+        },
+        {
+          "network": "SEGWITBTC",
+          "fee": 0.0005
+        },
+        {
+          "network": "ETH",
+          "fee": 0.00044
+        }
+      ]
+    },
+    {
+      "token": "BTG",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.0071
+        },
+        {
+          "network": "BTG",
+          "fee": 0.001
+        }
+      ]
+    },
+    {
+      "token": "USDT",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.29
+        },
+        {
+          "network": "AVAXC",
+          "fee": 1
+        },
+        {
+          "network": "BNB",
+          "fee": 1
+        },
+        {
+          "network": "ETH",
+          "fee": 10
+        },
+        {
+          "network": "MATIC",
+          "fee": 1
+        },
+        {
+          "network": "SOL",
+          "fee": 1
+        },
+        {
+          "network": "TRX",
+          "fee": 1
+        }
+      ]
+    },
+    {
+      "token": "LTC",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.0024
+        },
+        {
+          "network": "LTC",
+          "fee": 0.001
+        },
+        {
+          "network": "BNB",
+          "fee": 0.0024
+        }
+      ]
+    },
+    {
+      "token": "XLM",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.98
+        },
+        {
+          "network": "XLM",
+          "fee": 0.02
+        }
+      ]
+    },
+    {
+      "token": "BCH",
+      "withdraw_fee": [
+        {
+          "network": "BSC",
+          "fee": 0.00087
+        },
+        {
+          "network": "BCH",
+          "fee": 0.001
+        },
+        {
+          "network": "BNB",
+          "fee": 0.00087
+        },
+        {
+          "network": "ETH",
+          "fee": 0.075
+        }
+      ]
+    }
+  ]
+}

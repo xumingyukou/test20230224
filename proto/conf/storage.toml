@@ -1,0 +1,22 @@
+[[storage]]
+name = "disk1"
+store_type = "disk"
+
+[storage.config]
+data_dir = "db"
+backup_dir = "db/backup"
+gc_interval = "0s" # 垃圾回收间隔，用于清理消息删除后的残留数据，0表示不开启定时回收
+no_sync = true # 开启后每次写入后刷盘，可靠性最高，关闭后pebble没有任何刷盘保证，参看force_sync_wal
+seq_init_gap = 0 # 每次启动时初始化序列号的增加幅度，用于确保序列号单调递增 
+force_sync_wal = true # 每次写入强制刷新wal，结合no_sync=true可以比sync=true更快速
+disable_wal = false # 一般需要false，对临时状态数据可以true
+bytes_per_sync = "512KB" # 每次刷盘sst文件的大小
+wal_bytes_per_sync = "0B" # 每次刷盘wal日志的大小
+wal_min_sync_interval = "0ms" # 最小wal刷盘间隔，可以设置非零值降低刷盘频率 
+
+[[storage]]
+name = "mem1"
+store_type = "memory"
+
+[storage.config]
+max_size = 1024 # 最大消息容量

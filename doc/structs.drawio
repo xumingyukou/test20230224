@@ -1,0 +1,169 @@
+<mxfile host="65bd71144e">
+    <diagram id="3GsHudUVv5Gp4pXYADuH" name="第 1 页">
+        <mxGraphModel dx="1799" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="193" width="520" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="tickertape" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=none;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="702" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.111;exitY=0.611;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="14" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1005" y="308"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="CEX+DEX" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="143" width="190" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;shape=flexArrow;strokeColor=#FFFFFF;" parent="1" source="20" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="676" y="233" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="20" target="68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="ordersys" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=none;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="349" y="203" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFFF;" parent="1" source="73" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="676" y="383" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="733" y="383"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.9;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;shape=flexArrow;strokeColor=#FFFFFF;" parent="1" source="66" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="736" y="263" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="457" y="308"/>
+                            <mxPoint x="540" y="308"/>
+                            <mxPoint x="630" y="308"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="balancemonitor" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=none;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="349" y="353" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="68" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="order" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;rotation=0;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="386.5" y="293" width="45" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="访问控制Api全局锁" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="973" y="303" width="64" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#FFFFFF;" parent="1" source="73" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="278"/>
+                            <mxPoint x="500" y="278"/>
+                            <mxPoint x="500" y="248"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;rounded=0;html=1;strokeColor=#FFFFFF;" parent="1" source="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="940" y="293" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="910" y="293"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;shape=flexArrow;strokeColor=#FFFFFF;" parent="1" source="73" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="clients" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="673" y="263" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;h1&gt;行情数据结构&lt;/h1&gt;&lt;p&gt;Depth&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span&gt;DepthMerge&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;汇率&amp;nbsp; &amp;nbsp; 币价&amp;nbsp; &amp;nbsp; 资金费率&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="470" width="370" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&lt;h1&gt;交易相关&lt;/h1&gt;&lt;p&gt;order_status&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="43" y="1220" width="370" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;h1&gt;balance相关&lt;/h1&gt;&lt;p&gt;现货balance&amp;nbsp; &amp;nbsp;杠杆balance&amp;nbsp; &amp;nbsp; 币本位期货balance&amp;nbsp; &amp;nbsp; U本位期货balance&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="2030" width="490" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Depth&#10;topic:exchange_market_symbol&#10;交易所行情" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="43" y="590" width="371" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="topic命名规则：交易所_market_symbol &#10;        如binance_weekfuture_btc/usd&#10;&#10;market：交易区，分spot、swap、future、option&#10;symbol：交易标的&#10;time_receive：获得数据的时间，最好是交易所时间，否则是收到数据&#10;    的第一时间，timestamp&#10;time_op：完成逻辑处理后的时间 timestamp&#10;bids:&#10;  [&#10;    {price:, amount:},&#10;    {price:, amount:},&#10;  ]&#10;asks:&#10;  [&#10;    ...&#10;  ]&#10;check_info：{} 和交易所进行校验的信息，该信息可以不需要发布，&#10;    订阅者不关心" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="77">
+                    <mxGeometry y="70" width="371" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="DepthMerge&#10;topic:domain_symbol_merge&#10;配置合并在一起的行情" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="600" width="390" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="topic命名规则：domain是合并区&#10;        如CEX DEX CEX_binance_huobi等&#10;&#10;market：交易区，分spot、swap、future、option&#10;symbol：交易标的&#10;time_receive：获得数据的时间，最好是交易所时间，否则是收到数据&#10;    的第一时间，timestamp&#10;time_op：完成逻辑处理后的时间 timestamp&#10;bids：&#10;  [&#10;    { &#10;      price：本块整合后的均价，&#10;      amount：本块整合后的amount总量，&#10;      price_avg: &#10;      amount_sum：&#10;      amounts:&#10;        [&#10;          {exchange:&#10;          path:&#10;            [&#10;               {&quot;price&quot;:,  &quot;amount&quot;:  &quot;symbol&quot;: }&#10;               ...&#10;            ]}&#10;           ...&#10;        ]&#10;    }&#10;  ]&#10;asks:&#10;  [&#10;      ...&#10;  ]&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="79">
+                    <mxGeometry y="70" width="390" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="ExchangeRate&#10;topic：r_symbol&#10;汇率，默认是标的对美元汇率，币价也通过ExchangeRate&#10;发布，供风控等模块订阅" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="600" width="371" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="topic命名规则：r_汇率的标的，或token的usdt交易区&#10; 如r_jpy/usd  r_usdt/usd  r_btc/usdt&#10;&#10;price:&#10;    汇率内容&#10;price_bid: 盘口买一价&#10;price_ask: 盘口卖一价&#10;time_receive：获得数据的时间，最好是交易所时间，&#10;    否则是接收的时间&#10;time_op:&#10;    完成逻辑处理的时间timestamp" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="81">
+                    <mxGeometry y="70" width="371" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="SwapfRate&#10;topic:exchange_market_symbol&#10;永续费率，通常是8小时发布一次" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1760" y="600" width="371" height="240" as="geometry">
+                        <mxRectangle x="428.5" y="900" width="240" height="70" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="topic命名规则：交易所_market_symbol&#10;    如：binance_forever_btc/usd&#10;&#10;price:&#10;    汇率内容&#10;price_bid: 盘口买一价&#10;price_ask: 盘口卖一价&#10;time_receive：获得数据的时间，最好是交易所时间，&#10;    否则是接收的时间&#10;time_op:&#10;    完成逻辑处理的时间timestamp" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="83">
+                    <mxGeometry y="70" width="371" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="DepthAMM&#10;topic:exchange_market_symbol&#10;交易所行情-AMM机制下的行情" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="891" y="600" width="370" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="topic命名规则：交易所_market_symbol &#10;        如bscmdex_weth/usdt&#10;&#10;symbol：交易标的&#10;token_0:交易标的在amm-pool里的reserve0&#10;token_1:交易标的在amm-pool里的reserve1&#10;reserve0:reserver0的资产量&#10;reserver1:reserver1的资产量&#10;block_num:块编号（即块高度）&#10;time_receive：获得数据的时间，timestamp&#10;time_block：出块时间&#10;time_op：完成逻辑处理后的时间 timestamp&#10;&#10;check_info：{} 和交易所进行校验的信息，该信息可以不需要发布，&#10;    订阅者不关心" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="85">
+                    <mxGeometry y="70" width="370" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="BalanceSpot&#10;topic:spot_exchange_accountid&#10;现货账户信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="2177" width="370" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="topic命名规则：balance类型_交易所_accountid&#10;&#10;uni_netasset: 统一账户的总资产&#10;uni_liability:  统一账户的总负债&#10;uni_risk_rate：统一账户的总风险率&#10;time_last_update:最新更新时间&#10;&#10;#账户都只收录价值绝对值超过100美金的资产，去掉小额&#10;spot:现货账户，记录着每种资产的数量&#10;  {&#10;    token1:amount1&#10;    ...&#10;  }&#10;fronzen：现货冻结资产，现货交易区挂单或提币会有冻结&#10;  {&#10;    token1:amount1&#10;    ...&#10;  }&#10;spot_available: 考虑了对冲预期消耗的资产，下单后、订单取消或&#10;                         完成，都要进行相应更新，某个token没有订单时，&#10;                         其amount应该和spot的完全一样&#10;  {&#10;    token1:amount1&#10;    ...&#10;  }" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="87">
+                    <mxGeometry y="80" width="370" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="BalanceMarginSingle&#10;topic:marginsingle_exchange_accountid&#10;逐仓杠杆账户信息，区分交易区，正在被淘汰" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="2177" width="370" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="topic命名规则：balance类型_交易所_accountid&#10;&#10;time_last_update:最新更新时间&#10;margin:杠杆账户 每个交易对下每种资产的数量&#10;  {&#10;    symbol:{&#10;        token0:amount0,   &#10;        token1:amount1      &#10;      }&#10;    ...&#10;  }&#10;margin_frozen: 杠杆账户 每个交易对下下单冻结资产数量&#10;  {&#10;    symbol:{&#10;        token0:amount0,   &#10;        token1:amount1      &#10;      }&#10;    ...&#10;  }&#10;margin_loan: 杠杆账户 每个交易对下借贷资产数量，结合&#10;                      margin_frozen margin能计算出风险率&#10;  {&#10;    symbol:{&#10;        token0_loan:amount0, 已借贷量  &#10;        token0_available:amount0  还可借贷的量&#10;        token1_loan:amount1, 已借贷量  &#10;        token1_available:amount1  还可借贷的量&#10;        risk_rate:风险率&#10;      }&#10;    ...&#10;  }&#10;margin_available: 考虑了对冲预期消耗的资产，下单后、订单取消或&#10;                         完成，都要进行相应更新，某个token没有订单时，&#10;                         其amount应该和margin的完全一样&#10;  {&#10;    token1:amount1&#10;    ...&#10;  }" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="89">
+                    <mxGeometry y="80" width="370" height="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="BalanceMarginUni&#10;topic:marginuni_exchange_accountid&#10;全仓或统一杠杆账户信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="2177" width="370" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="topic命名规则：balance类型_交易所_accountid&#10;&#10;time_last_update:最新更新时间&#10;risk_rate:风险率 全账户的统一杠杆率&#10;&#10;margin:杠杆账户 每个token的数量，不区分交易区&#10;  {&#10;    token:amount&#10;    ...&#10;  }&#10;frozen: 杠杆账户 每个token的下单冻结资产，不区分交易区&#10;  {&#10;    btc:amount&#10;    ...&#10;  }&#10;loan: 杠杆账户 每个token的杠杆借贷，结合&#10;                      margin_frozen margin能计算出风险率&#10;  {&#10;    btc_loan:amount1 已借贷量，负数&#10;    btc_loan_available:amount_available 还可借贷的量，正数&#10;    ...&#10;  }&#10;margin_available: 考虑了对冲预期消耗的资产，下单后、订单取消或&#10;                         完成，都要进行相应更新，某个token没有订单时，&#10;                         其amount应该和margin的完全一样&#10;  {&#10;    token1:amount1&#10;    ...&#10;  }&#10;&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="91">
+                    <mxGeometry y="80" width="370" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="BalanceFutureU&#10;topic:futureu_exchange_accountid&#10;期货U本位账户，如usdt合约" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1270" y="2177" width="370" height="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="topic命名规则：balance类型_交易所_accountid&#10;&#10;time_last_update:最新更新时间&#10;&#10;账户整体信息&#10;rights: 账户权益&#10;profit：已实现盈利，仓位有亏损且结算后为负数，有盈利为正&#10;unprofit:未实现盈利，未结算的盈亏&#10;crose_wallet_balance:跨账户资产（其他交易区）&#10;max_withdraw_amount:最多可以转走的U的数量，必须维持一定比&#10;                                      例，否则会被强制卖掉富裕资产导致币不平&#10;used_usdt:&#10;usdt_available:&#10;position_total:总仓位&#10;risk_total：总风险率&#10;&#10;furture:期货账户 资产价值非小额才有值&#10;  {&#10;    symbol:{&#10;      token0:amount0，当前账户中的token0数量，即开出来但未转&#10;                                    走资产&#10;      token0_position:amount00，token0的仓位，负数为空仓量&#10;      token1:aount1,&#10;      token1_position:amount11，&#10;      rights:账户权益 代表我们的资产&#10;      profit：已实现盈利&#10;      unprofit 未实现盈利&#10;    }&#10;    ...&#10;  }&#10;frozen：下单中冻结的资产&#10;{&#10;    symbol:{&#10;      token0:amount0，&#10;      token1:aount1,&#10;    }&#10;    ...&#10;}&#10;&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="93">
+                    <mxGeometry y="80" width="370" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="BalanceFuture&#10;topic:futuretoken_exchange_accountid&#10;期货币本位账户" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="1690" y="2177" width="370" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="topic命名规则：balance类型_交易所_accountid&#10;&#10;time_last_update:最新更新时间&#10;&#10;furture:期货账户 资产价值非小额才有值&#10;  {&#10;    symbol:{  不同的期限合约，在这里区分，如thisweek quarter等&#10;      token0:amount0，当前账户中的token0数量，即开出来但未转&#10;                                    走资产&#10;      token0_position:amount00，token0的仓位，负数为空仓量&#10;      token1:aount1,&#10;      token1_position:amount11，&#10;      rights:账户权益 代表我们的资产&#10;      profit：已实现盈利&#10;      unprofit 未实现盈利&#10;    }&#10;    ...&#10;  }&#10;frozen：下单中冻结的资产&#10;{&#10;    symbol:{&#10;      token0:amount0，&#10;      token1:aount1,&#10;    }&#10;    ...&#10;}" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="95">
+                    <mxGeometry y="80" width="370" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="OrderStatus&#10;topic:exchange_accountid" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=71;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="1350" width="370" height="591" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="id&#10;   DeepTrading自维护ID，由策略产生，自增&#10;type:&#10;   订单类型，支持订单：&#10;        下交易单；取消交易单；转账提币；内部划转；借贷；还款&#10;&#10;更新部分才推：&#10;data:&#10;  {&#10;    #1 下单后订单发给DEX CEX，得到id_ex和下单时间&#10;    id_ex:下单后产生的ID&#10;    time_place:订单下单时间，即交易系统下单时间&#10;    #2 交易所回报状态-open&#10;    time_place_first_report：订单首次回报状态时间&#10;    status：open&#10;    #3 订单部分成交 这时，策略就可以开始对部分成交的对冲&#10;    time_filled_first：订单成交时间（部分成交时首次成交时间）&#10;    amount_filled:实际成交量（累计部分成交）&#10;    order_receipts:&#10;          &quot;[{}]&quot; 下单后交易所返回的原始信息，尽量都保存&#10;    #4 订单完成  提币操作需要持续跟踪目的地的上账情况&#10;    time_finish：订单最终完结时间（含最总cancel）&#10;    status：filled  策略开始计算成交信息（amount_filled price_filled）&#10;               并发出全部的对冲单&#10;    order_receipts:&#10;          &quot;[{}]&quot; 下单后交易所返回的原始信息，尽量都保存&#10;    #5 订单取消&#10;    status: 订单状态 cancel&#10;    time_finish：订单最终完结时间（含最总cancel）&#10;&#10;    msg:必要的辅助case分析的文字信息&#10;  }&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="97">
+                    <mxGeometry y="71" width="370" height="520" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

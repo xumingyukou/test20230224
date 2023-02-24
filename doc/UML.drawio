@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="h_UkHINMXgZgfIvgZ_Ck" name="第 1 页">
+        <mxGraphModel dx="967" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b&gt;ClientPlace&lt;br&gt;通过http-request等主动的方式下单或查询&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="70" width="360" height="720" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="55" width="360" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="get_balance(account)&lt;br&gt;&amp;nbsp; &amp;nbsp; return Balance&lt;br&gt;&amp;nbsp; &amp;nbsp; 获得在该交易所的balance信息&lt;br&gt;&lt;br&gt;place_order_limit(order)&lt;br&gt;&amp;nbsp; &amp;nbsp; return result&lt;br&gt;&amp;nbsp; &amp;nbsp; 下限价单&lt;br&gt;&lt;br&gt;place_order_market(order)&lt;br&gt;&amp;nbsp; &amp;nbsp; return result&lt;br&gt;&amp;nbsp; &amp;nbsp; 下市价单&lt;br&gt;&lt;br&gt;place_order_maker(order)&lt;br&gt;&amp;nbsp; &amp;nbsp; return result&lt;br&gt;&amp;nbsp; &amp;nbsp; 下maker单&lt;br&gt;&lt;br&gt;cancel_order(order)&lt;br&gt;&amp;nbsp; &amp;nbsp; return result&lt;br&gt;&amp;nbsp; &amp;nbsp; 取消订单&lt;br&gt;&lt;br&gt;transfer(order)&lt;br&gt;&amp;nbsp; &amp;nbsp; return result&lt;br&gt;&amp;nbsp; &amp;nbsp; 提币订单&lt;br&gt;&lt;br&gt;get_deposit(exchange, account, time_begin, time_end)&lt;br&gt;&amp;nbsp; &amp;nbsp; return [ deposit ]&lt;br&gt;&amp;nbsp; &amp;nbsp; 查询存款记录，配合rebalance&lt;br&gt;&lt;br&gt;get_transfer(exchange,&amp;nbsp;account, time_begin, time_end)&lt;br&gt;&amp;nbsp; &amp;nbsp; return [ transfer ]&lt;br&gt;&amp;nbsp; &amp;nbsp; 查询提款记录，配合rebalance&lt;br&gt;&lt;br&gt;get_order(order)&lt;br&gt;&amp;nbsp; &amp;nbsp; return result&lt;br&gt;&amp;nbsp; &amp;nbsp; 查询订单信息。不支持ws回报订单行情的交易所，如bitbank&lt;br&gt;&amp;nbsp; &amp;nbsp; 需要频发查单获知订单状态&lt;br&gt;&lt;br&gt;construct_symbol(token, quota, contract_type)&lt;br&gt;&amp;nbsp; &amp;nbsp; return symbol&lt;br&gt;&amp;nbsp; &amp;nbsp; 创建对应交易所的symbol，各交易所的symbol格式不同&lt;br&gt;&lt;br&gt;truncate(token, quote, contract_type, &lt;br&gt;&amp;nbsp; &amp;nbsp; amount, price)&lt;br&gt;&amp;nbsp; &amp;nbsp; return amount, price&lt;br&gt;&amp;nbsp; &amp;nbsp; 按照本地交易所的规定对amount进行进位控制&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="75" width="360" height="645" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;ClientReport&lt;br&gt;通过ws接口获得订单状态&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="70" width="380" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5">
+                    <mxGeometry y="55" width="380" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="get_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5">
+                    <mxGeometry y="75" width="380" height="355" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

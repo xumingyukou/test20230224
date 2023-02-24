@@ -1,0 +1,22 @@
+[exchange]
+# 默认配置
+
+#[exchange.binance]
+#api_key_path = "../.binance/key.json"
+#spot_config_path = "./conf/cex/binance_spot.json"
+#[exchange.binance.weight]
+#spot = { ip_1m = 200, account_10s = 50, account_1m = 1200, account_24h = 160000 }
+#u_base = { ip_1m = 2400, account_10s = 300, account_1m = 1200 }
+#c_base = { ip_1m = 2400, account_1m = 1200 }
+
+#[exchange.okex]
+#api_key_path = "../../../../.okex/key3.json"
+
+#[exchange.ftx]
+#api_key_path = "../.ftx/key.json"
+
+#[exchange.kucoin]
+#api_key_path = "../.kucoin/key.json"
+
+[exchange.huobi]
+api_key_path = "../../../../.huobi/key.json"
